@@ -10,6 +10,6 @@ public class SimpleController {
     @RequestMapping(value = "/cos", method = RequestMethod.GET)
     public String abc() {
         System.out.println("cos");
-        return "kjasgdf";
+        return "cos";
     }
 }
